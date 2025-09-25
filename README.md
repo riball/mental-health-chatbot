@@ -18,9 +18,14 @@ Customizable Intents: Easy to modify responses and add new conversation patterns
 
 Try the live chatbot: Hugging Face Spaces Link
 ## 📋 Requirements
-gradio==4.44.0
+gradio==4.44.7
+
 torch>=1.9.0,<2.3.0
+
+
 nltk>=3.7
+
+
 numpy>=1.21.0
 
 
@@ -47,43 +52,43 @@ mental-health-chatbot/
 ├── app.py   
 
               
-# Main Gradio application
+ Main Gradio application
 
 
 ├── train_chatbot.py   
 
- # Training script
+ Training script
 
 
 ├── intents.json         
 
- # Training data (patterns & responses)
+ Training data (patterns & responses)
 
 
 
 ├── chatbot_model.pth     
 
-# Trained PyTorch model
+Trained PyTorch model
 
 
 ├── metadata.json         
 
-# Model metadata (vocabulary, intents)
+Model metadata (vocabulary, intents)
 
 
 ├── requirements.txt      
 
-# Python dependencies
+Python dependencies
 
 
 ├── README.md            
 
-# This file
+This file
 
 
 └── .gitignore           
 
-# Git ignore file
+ Git ignore file
 
 
 ## 🧠 How It Works
