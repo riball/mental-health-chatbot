@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "yo",
+        "howdy",
+        "hiya",
+        "hey there"
+      ],
+      "responses": [
+        "Hello! How are you feeling today?",
+        "Hi there! How's your day going?",
+        "Hey! I'm here to chat if you need me.",
+        "Hello! Hope you're doing okay today."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "see you",
+        "good night",
+        "talk later",
+        "catch you later",
+        "see ya",
+        "bye bye",
+        "farewell"
+      ],
+      "responses": [
+        "Take care! Remember to be kind to yourself.",
+        "Goodbye! I hope you have a calm day.",
+        "See you later! Stay positive.",
+        "Bye! Reach out if you need to talk again."
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "I am stressed",
+        "feeling anxious",
+        "I can't handle this",
+        "overwhelmed",
+        "pressure",
+        "so much to do",
+        "panic",
+        "nervous",
+        "worried"
+      ],
+      "responses": [
+        "Take a deep breath. Focus on one thing at a time.",
+        "Stress is temporary. You're doing your best, and that's enough.",
+        "Try a short walk or some gentle stretching to calm down.",
+        "Close your eyes, take slow breaths, and remind yourself you're safe.",
+        "Talking to a friend or journaling can help relieve pressure."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I feel hopeless",
+        "I can't do this",
+        "I give up",
+        "I need motivation",
+        "nothing works",
+        "so tired of trying",
+        "I feel stuck"
+      ],
+      "responses": [
+        "Every step counts. Keep going, you're stronger than you think.",
+        "Take it one moment at a time. You've got this!",
+        "Progress is progress, no matter how small.",
+        "Remember, even small victories are wins.",
+        "You have overcome challenges before; you can do it again!"
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "self care tips",
+        "how can I relax",
+        "I want to feel better",
+        "help me calm down",
+        "me time",
+        "need to unwind",
+        "take care of myself"
+      ],
+      "responses": [
+        "Drink water, stretch, or take a short walk.",
+        "Listening to music, journaling, or meditating can calm your mind.",
+        "Try some deep breathing or light exercise.",
+        "Spend time doing something you enjoy for a few minutes.",
+        "Remember: rest is productive, too!"
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "I need help",
+        "I feel suicidal",
+        "I need support",
+        "hotline",
+        "help me",
+        "I want to talk",
+        "I feel unsafe",
+        "I feel hopeless"
+      ],
+      "responses": [
+        "If you are in crisis, please contact a trained professional immediately.",
+        "You can reach out to the Vandrevala Foundation Helpline: 1860 266 2345 (India).",
+        "You can also contact iCall: +91 9152987821 (India) for support.",
+        "If you feel unsafe, please reach out to a local emergency number immediately.",
+        "It's okay to ask for help. You are not alone."
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "I feel lonely",
+        "no one understands me",
+        "I have no friends",
+        "feeling isolated",
+        "alone"
+      ],
+      "responses": [
+        "It's okay to feel lonely sometimes. Talking helps.",
+        "Even reaching out online or to a helpline can make a difference.",
+        "You are not alone in feeling this way. There are people who care.",
+        "Connecting with communities or groups can help you feel supported."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I feel anxious",
+        "panic attacks",
+        "worried all the time",
+        "my heart races",
+        "I can't calm down"
+      ],
+      "responses": [
+        "Take slow, deep breaths and ground yourself in the present.",
+        "Focus on something around you \u2014 notice 5 things you can see, 4 things you can touch.",
+        "Sometimes writing down your worries can help you manage them.",
+        "Gentle exercise or stretching may help reduce anxious feelings."
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "I can't sleep",
+        "insomnia",
+        "trouble sleeping",
+        "nightmares",
+        "I feel tired but can't rest"
+      ],
+      "responses": [
+        "Try a consistent bedtime and reduce screen time before sleep.",
+        "Relax with calming music, reading, or meditation.",
+        "Avoid caffeine and heavy meals close to bedtime.",
+        "Practice deep breathing to help calm your mind."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "I want to feel better",
+        "cheer me up",
+        "make me happy",
+        "I need positivity",
+        "uplift me"
+      ],
+      "responses": [
+        "Take a moment to appreciate one small good thing today.",
+        "Write down 3 things you're thankful for today.",
+        "Remember, small moments of joy matter as much as big ones.",
+        "Even a short walk outside or talking to someone you care about can lift your mood."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "I appreciate it",
+        "good bot",
+        "thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Anytime! Take care of yourself.",
+        "Always here if you need me."
+      ]
+    }
+  ]
+}
