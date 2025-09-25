@@ -1,6 +1,10 @@
 # 🤖 AI Mental Health Support Chatbot
+
+
 A supportive AI chatbot built with PyTorch and Gradio to help with stress, anxiety, and mental wellness conversations. The chatbot uses natural language processing to understand user inputs and provide appropriate supportive responses.
 [mental-health-chatbot](https://huggingface.co/spaces/riball/ai-mental-health-chatbot)
+
+
 ## 🌟 Features
 
 Mental Health Support: Provides responses for stress, anxiety, depression, and general wellness
@@ -10,12 +14,16 @@ Web Interface: Clean, user-friendly Gradio interface
 Customizable Intents: Easy to modify responses and add new conversation patterns
 
 ## 🚀 Live Demo
+
+
 Try the live chatbot: Hugging Face Spaces Link
 ## 📋 Requirements
 gradio==4.44.0
 torch>=1.9.0,<2.3.0
 nltk>=3.7
 numpy>=1.21.0
+
+
 ## 🛠️ Installation & Setup
 1. Clone the Repository
 bashgit clone https://github.com/riball/mental-health-chatbot.git
@@ -28,30 +36,54 @@ bashpython train_chatbot.py
 4. Run the Application
 bashpython app.py
 The chatbot will be available [here](https://huggingface.co/spaces/riball/ai-mental-health-chatbot)
+
+
 ## 📁 Project Structure
+
+
 mental-health-chatbot/
-├── app.py                 # Main Gradio application
 
 
-├── train_chatbot.py       # Training script
+├── app.py   
+
+              
+# Main Gradio application
 
 
-├── intents.json          # Training data (patterns & responses)
+├── train_chatbot.py   
+
+ # Training script
 
 
-├── chatbot_model.pth     # Trained PyTorch model
+├── intents.json         
+
+ # Training data (patterns & responses)
 
 
-├── metadata.json         # Model metadata (vocabulary, intents)
+
+├── chatbot_model.pth     
+
+# Trained PyTorch model
 
 
-├── requirements.txt      # Python dependencies
+├── metadata.json         
+
+# Model metadata (vocabulary, intents)
 
 
-├── README.md            # This file
+├── requirements.txt      
+
+# Python dependencies
 
 
-└── .gitignore           # Git ignore file
+├── README.md            
+
+# This file
+
+
+└── .gitignore           
+
+# Git ignore file
 
 
 ## 🧠 How It Works
@@ -82,6 +114,8 @@ Retrain the model: python train_chatbot.py
 Restart the application
 
 Modifying Responses
+
+
 Simply edit the responses array in intents.json for any intent.
 ## 📊 Training Details
 
@@ -92,6 +126,8 @@ Training: 1000 epochs with Adam optimizer
 Activation: ReLU with dropout for regularization
 
 ## ⚠️ Important Disclaimer
+
+
 This chatbot is designed for supportive conversation and general wellness. It is not a replacement for professional mental health care. If you're experiencing a mental health crisis, please contact:
 
 Emergency Services: Your local emergency number
@@ -113,18 +149,32 @@ Open a Pull Request
 
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 ## 🙏 Acknowledgments
 
 Built with Gradio for the web interface
+
+
 NLTK for natural language processing
+
+
 PyTorch for the neural network
+
+
 Mental health resources from various wellness organizations
+
+
 
 ## 📞 Support
 If you have questions or need help:
 
 Open an issue on GitHub
+
+
 Check the documentation
+
+
 Contact: raoshreya018@gmail.com
 
 
